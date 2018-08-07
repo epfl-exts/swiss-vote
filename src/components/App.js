@@ -8,7 +8,7 @@ import { Map } from "./Map";
 class App extends Component {
   state = {
     selection: "",
-    allResults: []
+    results: []
   };
 
   componentDidMount() {
@@ -18,31 +18,20 @@ class App extends Component {
       .then(function(response) {
         return response.json();
       })
-      .then(responseJSON => this.setState({ allResults: responseJSON }))
+      .then(responseJSON => this.setState({ results: responseJSON }))
       .catch(error => console.error("FetchError:", error));
   }
 
-  handleChange = event => {
-    this.setState({ selection: event.target.value });
+  handleChange = selection => {
+    this.setState({ selection });
   };
 
   render() {
     return (
       <div>
-        <select
-          ref={selector => (this.selector = selector)}
-          onChange={this.handleChange}
-          value={this.state.selection}
-        >
-          <option />
-          {this.state.allResults.map((resultSet, i) => (
-            <option key={i} value={i}>
-              {resultSet.description.en}
-            </option>
-          ))}
-        </select>
+        <Autocomplete {...this.state} onChange={this.handleChange} />
         <figure>
-          <Map {...this.state.allResults[this.state.selection]} />
+          <Map {...this.state.results[this.state.selection]} />
         </figure>
       </div>
     );

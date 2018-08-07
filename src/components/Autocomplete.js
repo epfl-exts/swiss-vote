@@ -4,18 +4,18 @@ import Downshift from "downshift";
 class Autocomplete extends Component {
   constructor(props) {
     super(props);
-    this.handleSelectorChange = this.handleSelectorChange.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
-  handleSelectorChange(selection) {
-    this.props.onSelectorChange(selection);
+  handleChange(selection) {
+    this.props.onChange(selection);
   }
 
   render() {
     return (
       <Downshift
-        onChange={this.handleSelectorChange}
-        itemToString={item => (item ? item.vote : "")}
+        onChange={this.handleChange}
+        itemToString={selectedResult => (selectedResult ? selectedResult.description.en : "")}
       >
         {({
           getInputProps,
@@ -33,9 +33,11 @@ class Autocomplete extends Component {
             <input {...getInputProps()} />
             <ul>
               {isOpen
-                ? this.props.voteResults
+                ? this.props.results
                     .filter(
-                      item => !inputValue || item.vote.includes(inputValue)
+                      result =>
+                        !inputValue ||
+                        result.description.en.includes(inputValue)
                     )
                     .map((item, index) => (
                       <li
@@ -59,7 +61,7 @@ class Autocomplete extends Component {
                           }
                         })}
                       >
-                        {item.vote}
+                        {item.description.en}
                       </li>
                     ))
                 : null}
