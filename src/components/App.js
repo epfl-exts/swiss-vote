@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 import "../css/App.css";
 
-import Autocomplete from "./Autocomplete";
+import Selector from "./Selector";
+
 import { Map } from "./Map";
 
 class App extends Component {
@@ -29,7 +30,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Autocomplete {...this.state} onChange={this.handleChange} />
+        <Selector {...this.state} onChange={this.handleChange} />
         <figure>
           <Map {...this.state.results[this.state.selection]} />
         </figure>
