@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Downshift from "downshift";
 
-class Autocomplete extends Component {
+class Selector extends Component {
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
@@ -28,7 +28,7 @@ class Autocomplete extends Component {
         }) => (
           <fieldset>
             <label {...getLabelProps()}>
-              Select a vote from the box below.
+              Select a vote by typing some text into the box below.
             </label>
             <input {...getInputProps()} />
             <ul>
@@ -73,4 +73,4 @@ class Autocomplete extends Component {
   }
 }
 
-export default Autocomplete;
+export default Selector;

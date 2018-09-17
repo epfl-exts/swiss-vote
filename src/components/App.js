@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-
-import "../css/App.css";
-
 import Selector from "./Selector";
-
-import { Map } from "./Map";
+import { Map, ResultsTable } from "./Map";
+import "../css/App.css";
 
 class App extends Component {
   state = {
@@ -32,7 +29,9 @@ class App extends Component {
       <div>
         <Selector {...this.state} onChange={this.handleChange} />
         <figure>
-          <Map {...this.state.results[this.state.selection]} />
+          <Map {...this.state.selection}>
+            <ResultsTable />
+          </Map>
         </figure>
       </div>
     );

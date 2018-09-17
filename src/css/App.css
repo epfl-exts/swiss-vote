@@ -4,9 +4,8 @@ label {
 }
 
 input, select {
-  border: dashed 2px var(--gold);
   box-sizing: border-box;
-  max-width: 412.5px;
+  box-shadow: var(--light-shadow);
   padding: calc(var(--content-padding) / 2);
   width: 100%;
   text-overflow: ellipsis;
