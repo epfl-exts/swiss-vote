@@ -11,7 +11,6 @@
     -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-  <link rel="stylesheet" href="%PUBLIC_URL%/normalize.css">
   <title>Swiss-Vote</title>
 </head>
 
@@ -127,26 +126,26 @@
       Before we begin working our way through the Swiss-Vote project, let's look briefly at what each of those four
       components does.
 
-      <h3><code class="is-primary">&lt;App /&gt;</code></h3>
+      <h3><code>&lt;<span class="is-cursive is-primary">App</span> /&gt;</code></h3>
 
       <p>This is the root component. It manages the state for <code class="is-tertiary">&lt;Selector /&gt;</code> and
         <code class="is-secondary">&lt;Map /&gt;</code>, and it renders
         those two components as well.</p>
 
-      <h3><code class="is-secondary">&lt;Map /&gt;</code></h3>
+      <h3><code>&lt;<span class="is-cursive is-secondary">Map</span> /&gt;</code></h3>
 
       <p>This component renders the image of the map of Switzerland. The image is a &lt;canvas /&gt; element that is
         rendered by <code class="is-secondary">&lt;Map /&gt;</code>, and Map also calls a function that draws the map
         on the canvas. We'll
         look at this in detail a little later in the course.</p>
 
-      <h3><code class="is-tertiary">&lt;Selector /&gt;</code></h3>
+      <h3><code>&lt;<span class="is-cursive is-tertiary">Selector</span> /&gt;</code></h3>
 
       <p>Selector renders the autocomplete field that lets filter the list of historical votes. We'll build this
         component in two stages: first as a simple drop-down &lt;select&gt;&lt;/select&gt;, and then later as the
         autocomplete field that you see on this page.</p>
 
-      <h3><code class="is-quaternary">&lt;ResultsTable /&gt;</code></h3>
+      <h3><code>&lt;<span class="is-cursive is-quaternary">ResultsTable</span> /&gt;</code></h3>
 
       <p>Last, but not least, we have ResultsTable, which renders an HTML table element that contains the same data
         that

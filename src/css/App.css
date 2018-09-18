@@ -4,6 +4,8 @@ label {
 }
 
 input, select {
+  font-size: 1em;
+  font-weight: 300;
   box-sizing: border-box;
   box-shadow: var(--light-shadow);
   padding: calc(var(--content-padding) / 2);
