@@ -1,0 +1,2362 @@
+[
+    {
+        "description": {
+            "de": "Nationalbankgewinne für die AHV",
+            "en": "National Bank profits for the OASI",
+            "fr": "Bénéfices de la Banque nationale pour l'AVS",
+            "it": "Utili della Banca nazionale per l'AVS"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 62092,
+                "no": 105546
+            },
+            {
+                "canton": "AR",
+                "yes": 6337,
+                "no": 12406
+            },
+            {
+                "canton": "AI",
+                "yes": 1181,
+                "no": 3522
+            },
+            {
+                "canton": "BL",
+                "yes": 41764,
+                "no": 50047
+            },
+            {
+                "canton": "BS",
+                "yes": 33519,
+                "no": 29068
+            },
+            {
+                "canton": "BE",
+                "yes": 129215,
+                "no": 174516
+            },
+            {
+                "canton": "FR",
+                "yes": 32772,
+                "no": 49721
+            },
+            {
+                "canton": "GE",
+                "yes": 61568,
+                "no": 58362
+            },
+            {
+                "canton": "GL",
+                "yes": 3476,
+                "no": 6901
+            },
+            {
+                "canton": "GR",
+                "yes": 21412,
+                "no": 35199
+            },
+            {
+                "canton": "JU",
+                "yes": 10708,
+                "no": 10806
+            },
+            {
+                "canton": "LU",
+                "yes": 43071,
+                "no": 73939
+            },
+            {
+                "canton": "NE",
+                "yes": 22745,
+                "no": 31715
+            },
+            {
+                "canton": "NW",
+                "yes": 3697,
+                "no": 10221
+            },
+            {
+                "canton": "OW",
+                "yes": 2705,
+                "no": 8081
+            },
+            {
+                "canton": "SH",
+                "yes": 12803,
+                "no": 17340
+            },
+            {
+                "canton": "SZ",
+                "yes": 15846,
+                "no": 30591
+            },
+            {
+                "canton": "SO",
+                "yes": 33754,
+                "no": 43804
+            },
+            {
+                "canton": "SG",
+                "yes": 55456,
+                "no": 85461
+            },
+            {
+                "canton": "TI",
+                "yes": 50861,
+                "no": 37548
+            },
+            {
+                "canton": "TG",
+                "yes": 22426,
+                "no": 43936
+            },
+            {
+                "canton": "UR",
+                "yes": 3376,
+                "no": 6518
+            },
+            {
+                "canton": "VD",
+                "yes": 89596,
+                "no": 104943
+            },
+            {
+                "canton": "VS",
+                "yes": 33397,
+                "no": 58007
+            },
+            {
+                "canton": "ZG",
+                "yes": 12410,
+                "no": 24983
+            },
+            {
+                "canton": "ZH",
+                "yes": 167810,
+                "no": 246325
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Bundesgesetz über die Ausländerinnen und Ausländer",
+            "en": "Federal Act on Foreign Nationals",
+            "fr": "Loi fédérale sur les étrangers",
+            "it": "Legge federale sugli stranieri"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 129808,
+                "no": 39744
+            },
+            {
+                "canton": "AR",
+                "yes": 13733,
+                "no": 5212
+            },
+            {
+                "canton": "AI",
+                "yes": 3731,
+                "no": 1005
+            },
+            {
+                "canton": "BL",
+                "yes": 65863,
+                "no": 26979
+            },
+            {
+                "canton": "BS",
+                "yes": 38651,
+                "no": 24978
+            },
+            {
+                "canton": "BE",
+                "yes": 211128,
+                "no": 95786
+            },
+            {
+                "canton": "FR",
+                "yes": 52781,
+                "no": 30619
+            },
+            {
+                "canton": "GE",
+                "yes": 63920,
+                "no": 57947
+            },
+            {
+                "canton": "GL",
+                "yes": 8133,
+                "no": 2297
+            },
+            {
+                "canton": "GR",
+                "yes": 40431,
+                "no": 16502
+            },
+            {
+                "canton": "JU",
+                "yes": 11550,
+                "no": 10368
+            },
+            {
+                "canton": "LU",
+                "yes": 87555,
+                "no": 30358
+            },
+            {
+                "canton": "NE",
+                "yes": 29083,
+                "no": 26008
+            },
+            {
+                "canton": "NW",
+                "yes": 11149,
+                "no": 2842
+            },
+            {
+                "canton": "OW",
+                "yes": 8252,
+                "no": 2551
+            },
+            {
+                "canton": "SH",
+                "yes": 21372,
+                "no": 8799
+            },
+            {
+                "canton": "SZ",
+                "yes": 36937,
+                "no": 9843
+            },
+            {
+                "canton": "SO",
+                "yes": 57791,
+                "no": 20251
+            },
+            {
+                "canton": "SG",
+                "yes": 107527,
+                "no": 34706
+            },
+            {
+                "canton": "TI",
+                "yes": 59537,
+                "no": 29501
+            },
+            {
+                "canton": "TG",
+                "yes": 51978,
+                "no": 14776
+            },
+            {
+                "canton": "UR",
+                "yes": 7250,
+                "no": 2696
+            },
+            {
+                "canton": "VD",
+                "yes": 106375,
+                "no": 90021
+            },
+            {
+                "canton": "VS",
+                "yes": 59441,
+                "no": 32590
+            },
+            {
+                "canton": "ZG",
+                "yes": 28377,
+                "no": 9225
+            },
+            {
+                "canton": "ZH",
+                "yes": 289577,
+                "no": 129627
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Änderung des Asylgesetzes",
+            "en": "Amendment to the Asylum Act",
+            "fr": "Modification de la loi sur l’asile",
+            "it": "Modifica della legge sull'asilo"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 129463,
+                "no": 40525
+            },
+            {
+                "canton": "AR",
+                "yes": 13649,
+                "no": 5242
+            },
+            {
+                "canton": "AI",
+                "yes": 3734,
+                "no": 1015
+            },
+            {
+                "canton": "BL",
+                "yes": 64972,
+                "no": 26875
+            },
+            {
+                "canton": "BS",
+                "yes": 37690,
+                "no": 25928
+            },
+            {
+                "canton": "BE",
+                "yes": 209852,
+                "no": 97347
+            },
+            {
+                "canton": "FR",
+                "yes": 52668,
+                "no": 30633
+            },
+            {
+                "canton": "GE",
+                "yes": 62340,
+                "no": 59147
+            },
+            {
+                "canton": "GL",
+                "yes": 8170,
+                "no": 2274
+            },
+            {
+                "canton": "GR",
+                "yes": 40900,
+                "no": 16537
+            },
+            {
+                "canton": "JU",
+                "yes": 11555,
+                "no": 10322
+            },
+            {
+                "canton": "LU",
+                "yes": 87268,
+                "no": 30770
+            },
+            {
+                "canton": "NE",
+                "yes": 29144,
+                "no": 25926
+            },
+            {
+                "canton": "NW",
+                "yes": 11153,
+                "no": 2867
+            },
+            {
+                "canton": "OW",
+                "yes": 8320,
+                "no": 2495
+            },
+            {
+                "canton": "SH",
+                "yes": 21642,
+                "no": 8850
+            },
+            {
+                "canton": "SZ",
+                "yes": 37597,
+                "no": 9316
+            },
+            {
+                "canton": "SO",
+                "yes": 58382,
+                "no": 19722
+            },
+            {
+                "canton": "SG",
+                "yes": 107787,
+                "no": 34992
+            },
+            {
+                "canton": "TI",
+                "yes": 59082,
+                "no": 29912
+            },
+            {
+                "canton": "TG",
+                "yes": 52166,
+                "no": 14692
+            },
+            {
+                "canton": "UR",
+                "yes": 7328,
+                "no": 2670
+            },
+            {
+                "canton": "VD",
+                "yes": 112294,
+                "no": 83897
+            },
+            {
+                "canton": "VS",
+                "yes": 59625,
+                "no": 32365
+            },
+            {
+                "canton": "ZG",
+                "yes": 28085,
+                "no": 9560
+            },
+            {
+                "canton": "ZH",
+                "yes": 283683,
+                "no": 136953
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Asylgesetz",
+            "en": "Asylum Act",
+            "fr": "Loi sur l'asile",
+            "it": "Legge sull'asilo"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 107995,
+                "no": 38872
+            },
+            {
+                "canton": "AR",
+                "yes": 14170,
+                "no": 5345
+            },
+            {
+                "canton": "AI",
+                "yes": 3562,
+                "no": 1190
+            },
+            {
+                "canton": "BL",
+                "yes": 62269,
+                "no": 20052
+            },
+            {
+                "canton": "BS",
+                "yes": 45036,
+                "no": 19044
+            },
+            {
+                "canton": "BE",
+                "yes": 226364,
+                "no": 83086
+            },
+            {
+                "canton": "FR",
+                "yes": 41816,
+                "no": 21356
+            },
+            {
+                "canton": "GE",
+                "yes": 55666,
+                "no": 41120
+            },
+            {
+                "canton": "GL",
+                "yes": 7870,
+                "no": 3045
+            },
+            {
+                "canton": "GR",
+                "yes": 31890,
+                "no": 13801
+            },
+            {
+                "canton": "JU",
+                "yes": 10186,
+                "no": 9180
+            },
+            {
+                "canton": "LU",
+                "yes": 82584,
+                "no": 29590
+            },
+            {
+                "canton": "NE",
+                "yes": 21927,
+                "no": 17719
+            },
+            {
+                "canton": "NW",
+                "yes": 9350,
+                "no": 3923
+            },
+            {
+                "canton": "OW",
+                "yes": 7782,
+                "no": 3694
+            },
+            {
+                "canton": "SH",
+                "yes": 20483,
+                "no": 9000
+            },
+            {
+                "canton": "SZ",
+                "yes": 27145,
+                "no": 11074
+            },
+            {
+                "canton": "SO",
+                "yes": 59079,
+                "no": 22303
+            },
+            {
+                "canton": "SG",
+                "yes": 101698,
+                "no": 32456
+            },
+            {
+                "canton": "TI",
+                "yes": 42724,
+                "no": 17632
+            },
+            {
+                "canton": "TG",
+                "yes": 49017,
+                "no": 14044
+            },
+            {
+                "canton": "UR",
+                "yes": 7411,
+                "no": 3533
+            },
+            {
+                "canton": "VD",
+                "yes": 81220,
+                "no": 51713
+            },
+            {
+                "canton": "VS",
+                "yes": 34155,
+                "no": 27148
+            },
+            {
+                "canton": "ZG",
+                "yes": 25208,
+                "no": 8100
+            },
+            {
+                "canton": "ZH",
+                "yes": 266530,
+                "no": 93369
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Bundesbeschluss über dringliche Massnahmen im Asyl- und Ausländerbereich",
+            "en": "Federal decree on urgent measures regarding asylum-seekers and foreigners",
+            "fr": "Arrêté fédéral sur les mesures d'urgence dans le domaine de l'asile et des étrangers",
+            "it": "Decreto federale concernente misure urgenti nell'ambito dell'asilo e degli stranieri"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 112087,
+                "no": 35084
+            },
+            {
+                "canton": "AR",
+                "yes": 14429,
+                "no": 5085
+            },
+            {
+                "canton": "AI",
+                "yes": 3579,
+                "no": 1178
+            },
+            {
+                "canton": "BL",
+                "yes": 62485,
+                "no": 19714
+            },
+            {
+                "canton": "BS",
+                "yes": 45193,
+                "no": 18869
+            },
+            {
+                "canton": "BE",
+                "yes": 226256,
+                "no": 82738
+            },
+            {
+                "canton": "FR",
+                "yes": 41015,
+                "no": 21948
+            },
+            {
+                "canton": "GE",
+                "yes": 55166,
+                "no": 41691
+            },
+            {
+                "canton": "GL",
+                "yes": 7962,
+                "no": 2951
+            },
+            {
+                "canton": "GR",
+                "yes": 32203,
+                "no": 13525
+            },
+            {
+                "canton": "JU",
+                "yes": 9919,
+                "no": 9375
+            },
+            {
+                "canton": "LU",
+                "yes": 83542,
+                "no": 28536
+            },
+            {
+                "canton": "NE",
+                "yes": 21308,
+                "no": 18181
+            },
+            {
+                "canton": "NW",
+                "yes": 9652,
+                "no": 3683
+            },
+            {
+                "canton": "OW",
+                "yes": 7888,
+                "no": 3577
+            },
+            {
+                "canton": "SH",
+                "yes": 19931,
+                "no": 9501
+            },
+            {
+                "canton": "SZ",
+                "yes": 27691,
+                "no": 10579
+            },
+            {
+                "canton": "SO",
+                "yes": 60013,
+                "no": 21351
+            },
+            {
+                "canton": "SG",
+                "yes": 102984,
+                "no": 31208
+            },
+            {
+                "canton": "TI",
+                "yes": 42809,
+                "no": 17598
+            },
+            {
+                "canton": "TG",
+                "yes": 49376,
+                "no": 13682
+            },
+            {
+                "canton": "UR",
+                "yes": 7669,
+                "no": 3298
+            },
+            {
+                "canton": "VD",
+                "yes": 79724,
+                "no": 52798
+            },
+            {
+                "canton": "VS",
+                "yes": 34068,
+                "no": 27041
+            },
+            {
+                "canton": "ZG",
+                "yes": 25609,
+                "no": 7764
+            },
+            {
+                "canton": "ZH",
+                "yes": 265426,
+                "no": 94953
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Bundesbeschluss über die ärztliche Verschreibung von Heroin",
+            "en": "Federal decree on the medical prescription of heroin",
+            "fr": "Arrêté fédéral sur la prescription médicale d'héroïne",
+            "it": "Decreto federale del concernente la prescrizione medica di eroina"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 78256,
+                "no": 70406
+            },
+            {
+                "canton": "AR",
+                "yes": 9905,
+                "no": 9930
+            },
+            {
+                "canton": "AI",
+                "yes": 2174,
+                "no": 2599
+            },
+            {
+                "canton": "BL",
+                "yes": 53912,
+                "no": 29122
+            },
+            {
+                "canton": "BS",
+                "yes": 45295,
+                "no": 20153
+            },
+            {
+                "canton": "BE",
+                "yes": 167518,
+                "no": 146599
+            },
+            {
+                "canton": "FR",
+                "yes": 28899,
+                "no": 35000
+            },
+            {
+                "canton": "GE",
+                "yes": 57175,
+                "no": 39722
+            },
+            {
+                "canton": "GL",
+                "yes": 5167,
+                "no": 5899
+            },
+            {
+                "canton": "GR",
+                "yes": 26764,
+                "no": 20082
+            },
+            {
+                "canton": "JU",
+                "yes": 9600,
+                "no": 9962
+            },
+            {
+                "canton": "LU",
+                "yes": 61988,
+                "no": 51315
+            },
+            {
+                "canton": "NE",
+                "yes": 16873,
+                "no": 23325
+            },
+            {
+                "canton": "NW",
+                "yes": 6906,
+                "no": 6572
+            },
+            {
+                "canton": "OW",
+                "yes": 6182,
+                "no": 5553
+            },
+            {
+                "canton": "SH",
+                "yes": 16402,
+                "no": 14107
+            },
+            {
+                "canton": "SZ",
+                "yes": 18817,
+                "no": 19760
+            },
+            {
+                "canton": "SO",
+                "yes": 47108,
+                "no": 34894
+            },
+            {
+                "canton": "SG",
+                "yes": 69757,
+                "no": 65748
+            },
+            {
+                "canton": "TI",
+                "yes": 30820,
+                "no": 30182
+            },
+            {
+                "canton": "TG",
+                "yes": 31802,
+                "no": 32047
+            },
+            {
+                "canton": "UR",
+                "yes": 5708,
+                "no": 5479
+            },
+            {
+                "canton": "VD",
+                "yes": 57513,
+                "no": 76974
+            },
+            {
+                "canton": "VS",
+                "yes": 21903,
+                "no": 40050
+            },
+            {
+                "canton": "ZG",
+                "yes": 21111,
+                "no": 12541
+            },
+            {
+                "canton": "ZH",
+                "yes": 230838,
+                "no": 136898
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Bundesgesetz über die Invalidenversicherung",
+            "en": "Federal Law on Disability Insurance",
+            "fr": "Loi fédérale sur l'assurance-invalidité",
+            "it": "Legge federale su l'assicurazione per l'invalidità"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 44786,
+                "no": 102370
+            },
+            {
+                "canton": "AR",
+                "yes": 6284,
+                "no": 13346
+            },
+            {
+                "canton": "AI",
+                "yes": 1415,
+                "no": 3314
+            },
+            {
+                "canton": "BL",
+                "yes": 26511,
+                "no": 55205
+            },
+            {
+                "canton": "BS",
+                "yes": 21886,
+                "no": 42265
+            },
+            {
+                "canton": "BE",
+                "yes": 86803,
+                "no": 224617
+            },
+            {
+                "canton": "FR",
+                "yes": 20741,
+                "no": 42701
+            },
+            {
+                "canton": "GE",
+                "yes": 24937,
+                "no": 72171
+            },
+            {
+                "canton": "GL",
+                "yes": 2721,
+                "no": 8275
+            },
+            {
+                "canton": "GR",
+                "yes": 13821,
+                "no": 32686
+            },
+            {
+                "canton": "JU",
+                "yes": 4421,
+                "no": 15285
+            },
+            {
+                "canton": "LU",
+                "yes": 34377,
+                "no": 78135
+            },
+            {
+                "canton": "NE",
+                "yes": 12210,
+                "no": 27496
+            },
+            {
+                "canton": "NW",
+                "yes": 3897,
+                "no": 9460
+            },
+            {
+                "canton": "OW",
+                "yes": 3114,
+                "no": 8503
+            },
+            {
+                "canton": "SH",
+                "yes": 7634,
+                "no": 22068
+            },
+            {
+                "canton": "SZ",
+                "yes": 10657,
+                "no": 27489
+            },
+            {
+                "canton": "SO",
+                "yes": 22590,
+                "no": 58952
+            },
+            {
+                "canton": "SG",
+                "yes": 43810,
+                "no": 90496
+            },
+            {
+                "canton": "TI",
+                "yes": 21035,
+                "no": 39608
+            },
+            {
+                "canton": "TG",
+                "yes": 16566,
+                "no": 46602
+            },
+            {
+                "canton": "UR",
+                "yes": 3358,
+                "no": 7783
+            },
+            {
+                "canton": "VD",
+                "yes": 48458,
+                "no": 83982
+            },
+            {
+                "canton": "VS",
+                "yes": 16637,
+                "no": 45016
+            },
+            {
+                "canton": "ZG",
+                "yes": 10529,
+                "no": 22800
+            },
+            {
+                "canton": "ZH",
+                "yes": 111599,
+                "no": 248361
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Bundesgesetz über die Mutterschaftsversicherung",
+            "en": "Federal law on maternity insurance",
+            "fr": "Loi fédérale sur l'assurance-maternité",
+            "it": "Legge federale sull'assicurazione per la maternità"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 39826,
+                "no": 112058
+            },
+            {
+                "canton": "AR",
+                "yes": 4595,
+                "no": 15638
+            },
+            {
+                "canton": "AI",
+                "yes": 684,
+                "no": 4183
+            },
+            {
+                "canton": "BL",
+                "yes": 29149,
+                "no": 55309
+            },
+            {
+                "canton": "BS",
+                "yes": 28678,
+                "no": 37259
+            },
+            {
+                "canton": "BE",
+                "yes": 114937,
+                "no": 202341
+            },
+            {
+                "canton": "FR",
+                "yes": 35179,
+                "no": 29860
+            },
+            {
+                "canton": "GE",
+                "yes": 74051,
+                "no": 25650
+            },
+            {
+                "canton": "GL",
+                "yes": 2298,
+                "no": 8907
+            },
+            {
+                "canton": "GR",
+                "yes": 14527,
+                "no": 33551
+            },
+            {
+                "canton": "JU",
+                "yes": 14229,
+                "no": 6001
+            },
+            {
+                "canton": "LU",
+                "yes": 32408,
+                "no": 82744
+            },
+            {
+                "canton": "NE",
+                "yes": 25927,
+                "no": 15332
+            },
+            {
+                "canton": "NW",
+                "yes": 3064,
+                "no": 10675
+            },
+            {
+                "canton": "OW",
+                "yes": 2982,
+                "no": 9113
+            },
+            {
+                "canton": "SH",
+                "yes": 9425,
+                "no": 21612
+            },
+            {
+                "canton": "SZ",
+                "yes": 7940,
+                "no": 31244
+            },
+            {
+                "canton": "SO",
+                "yes": 23482,
+                "no": 59302
+            },
+            {
+                "canton": "SG",
+                "yes": 32734,
+                "no": 105264
+            },
+            {
+                "canton": "TI",
+                "yes": 39049,
+                "no": 23350
+            },
+            {
+                "canton": "TG",
+                "yes": 14961,
+                "no": 49733
+            },
+            {
+                "canton": "UR",
+                "yes": 2571,
+                "no": 9079
+            },
+            {
+                "canton": "VD",
+                "yes": 88050,
+                "no": 49479
+            },
+            {
+                "canton": "VS",
+                "yes": 30926,
+                "no": 32159
+            },
+            {
+                "canton": "ZG",
+                "yes": 10680,
+                "no": 23562
+            },
+            {
+                "canton": "ZH",
+                "yes": 140106,
+                "no": 233419
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Bundesgesetz über Aufenthalt und Niederlassung der Ausländer",
+            "en": "Federal law on the residency and establishment of foreigners",
+            "fr": "Loi fédérale du 26 mars 1931 sur le séjour et l’établissement des étrangers",
+            "it": "Legge federale del 26 marzo 1931 concernente la dimora e il domicilio degli stranieri"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 78125,
+                "no": 34170
+            },
+            {
+                "canton": "AR",
+                "yes": 9059,
+                "no": 3869
+            },
+            {
+                "canton": "AI",
+                "yes": 2196,
+                "no": 1048
+            },
+            {
+                "canton": "BL",
+                "yes": 43475,
+                "no": 20409
+            },
+            {
+                "canton": "BS",
+                "yes": 38700,
+                "no": 20703
+            },
+            {
+                "canton": "BE",
+                "yes": 160278,
+                "no": 80013
+            },
+            {
+                "canton": "FR",
+                "yes": 29265,
+                "no": 14735
+            },
+            {
+                "canton": "GE",
+                "yes": 49010,
+                "no": 31072
+            },
+            {
+                "canton": "GL",
+                "yes": 5467,
+                "no": 2380
+            },
+            {
+                "canton": "GR",
+                "yes": 23595,
+                "no": 12428
+            },
+            {
+                "canton": "JU",
+                "yes": 9920,
+                "no": 7403
+            },
+            {
+                "canton": "LU",
+                "yes": 52143,
+                "no": 36481
+            },
+            {
+                "canton": "NE",
+                "yes": 21261,
+                "no": 14152
+            },
+            {
+                "canton": "NW",
+                "yes": 6410,
+                "no": 2867
+            },
+            {
+                "canton": "OW",
+                "yes": 3653,
+                "no": 2406
+            },
+            {
+                "canton": "SH",
+                "yes": 17639,
+                "no": 11366
+            },
+            {
+                "canton": "SZ",
+                "yes": 13849,
+                "no": 10072
+            },
+            {
+                "canton": "SO",
+                "yes": 47266,
+                "no": 22429
+            },
+            {
+                "canton": "SG",
+                "yes": 62245,
+                "no": 27273
+            },
+            {
+                "canton": "TI",
+                "yes": 71292,
+                "no": 35321
+            },
+            {
+                "canton": "TG",
+                "yes": 35910,
+                "no": 15261
+            },
+            {
+                "canton": "UR",
+                "yes": 6262,
+                "no": 3712
+            },
+            {
+                "canton": "VD",
+                "yes": 68528,
+                "no": 36777
+            },
+            {
+                "canton": "VS",
+                "yes": 29072,
+                "no": 16070
+            },
+            {
+                "canton": "ZG",
+                "yes": 15422,
+                "no": 7701
+            },
+            {
+                "canton": "ZH",
+                "yes": 221985,
+                "no": 115342
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Volksinitiative 'für die Mitsprache des Volkes bei Militärausgaben (Rüstungsreferendum)'",
+            "en": "Federal People's Initiative 'for the voice of the people in military spending (armament referendum)'",
+            "fr": "Initiative populaire fédérale 'demandant le droit de référendum en matière de dépenses militaires'",
+            "it": "Iniziativa popolare 'per la consultazione del popolo in materia di spese militari (referendum sulle spese militari)'"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 40598,
+                "no": 76108
+            },
+            {
+                "canton": "AR",
+                "yes": 4333,
+                "no": 9059
+            },
+            {
+                "canton": "AI",
+                "yes": 870,
+                "no": 2433
+            },
+            {
+                "canton": "BL",
+                "yes": 29973,
+                "no": 35226
+            },
+            {
+                "canton": "BS",
+                "yes": 31520,
+                "no": 28847
+            },
+            {
+                "canton": "BE",
+                "yes": 95135,
+                "no": 151453
+            },
+            {
+                "canton": "FR",
+                "yes": 19195,
+                "no": 25402
+            },
+            {
+                "canton": "GE",
+                "yes": 40579,
+                "no": 39773
+            },
+            {
+                "canton": "GL",
+                "yes": 2607,
+                "no": 5437
+            },
+            {
+                "canton": "GR",
+                "yes": 14030,
+                "no": 23624
+            },
+            {
+                "canton": "JU",
+                "yes": 9593,
+                "no": 8152
+            },
+            {
+                "canton": "LU",
+                "yes": 34626,
+                "no": 57175
+            },
+            {
+                "canton": "NE",
+                "yes": 16130,
+                "no": 20090
+            },
+            {
+                "canton": "NW",
+                "yes": 3026,
+                "no": 6528
+            },
+            {
+                "canton": "OW",
+                "yes": 2072,
+                "no": 4155
+            },
+            {
+                "canton": "SH",
+                "yes": 12281,
+                "no": 18305
+            },
+            {
+                "canton": "SZ",
+                "yes": 9116,
+                "no": 15674
+            },
+            {
+                "canton": "SO",
+                "yes": 29297,
+                "no": 41521
+            },
+            {
+                "canton": "SG",
+                "yes": 34764,
+                "no": 57559
+            },
+            {
+                "canton": "TI",
+                "yes": 49809,
+                "no": 59382
+            },
+            {
+                "canton": "TG",
+                "yes": 17492,
+                "no": 35859
+            },
+            {
+                "canton": "UR",
+                "yes": 3535,
+                "no": 6872
+            },
+            {
+                "canton": "VD",
+                "yes": 42773,
+                "no": 64947
+            },
+            {
+                "canton": "VS",
+                "yes": 16072,
+                "no": 30056
+            },
+            {
+                "canton": "ZG",
+                "yes": 8316,
+                "no": 15871
+            },
+            {
+                "canton": "ZH",
+                "yes": 146467,
+                "no": 207129
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Bundesbeschluss über das Abstimmungsverfahren bei Volksinitiativen mit Gegenentwurf",
+            "en": "Federal Decree on Food Security (direct counter-proposal to the Popular Initiative ‘For food security’, which has now been withdrawn)",
+            "fr": "Arrêté fédéral sur la sécurité alimentaire (contre-projet direct à l’initiative populaire « Pour la sécurité alimentaire », qui a été retirée)",
+            "it": "Decreto federale sulla sicurezza alimentare (controprogetto diretto all’iniziativa popolare «Per la sicurezza alimentare», ritirata)"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 64378,
+                "no": 48803
+            },
+            {
+                "canton": "AR",
+                "yes": 7443,
+                "no": 5543
+            },
+            {
+                "canton": "AI",
+                "yes": 1708,
+                "no": 1517
+            },
+            {
+                "canton": "BL",
+                "yes": 48575,
+                "no": 15887
+            },
+            {
+                "canton": "BS",
+                "yes": 46920,
+                "no": 11915
+            },
+            {
+                "canton": "BE",
+                "yes": 151205,
+                "no": 89888
+            },
+            {
+                "canton": "FR",
+                "yes": 28850,
+                "no": 14440
+            },
+            {
+                "canton": "GE",
+                "yes": 54771,
+                "no": 23203
+            },
+            {
+                "canton": "GL",
+                "yes": 4286,
+                "no": 3595
+            },
+            {
+                "canton": "GR",
+                "yes": 22058,
+                "no": 14031
+            },
+            {
+                "canton": "JU",
+                "yes": 11547,
+                "no": 5596
+            },
+            {
+                "canton": "LU",
+                "yes": 45728,
+                "no": 42844
+            },
+            {
+                "canton": "NE",
+                "yes": 22160,
+                "no": 12773
+            },
+            {
+                "canton": "NW",
+                "yes": 5421,
+                "no": 3891
+            },
+            {
+                "canton": "OW",
+                "yes": 3239,
+                "no": 2859
+            },
+            {
+                "canton": "SH",
+                "yes": 18507,
+                "no": 10446
+            },
+            {
+                "canton": "SZ",
+                "yes": 11262,
+                "no": 12921
+            },
+            {
+                "canton": "SO",
+                "yes": 44007,
+                "no": 25919
+            },
+            {
+                "canton": "SG",
+                "yes": 56012,
+                "no": 33825
+            },
+            {
+                "canton": "TI",
+                "yes": 79350,
+                "no": 26629
+            },
+            {
+                "canton": "TG",
+                "yes": 27349,
+                "no": 24380
+            },
+            {
+                "canton": "UR",
+                "yes": 5154,
+                "no": 4874
+            },
+            {
+                "canton": "VD",
+                "yes": 67085,
+                "no": 36721
+            },
+            {
+                "canton": "VS",
+                "yes": 20994,
+                "no": 23505
+            },
+            {
+                "canton": "ZG",
+                "yes": 13223,
+                "no": 10320
+            },
+            {
+                "canton": "ZH",
+                "yes": 219760,
+                "no": 121340
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Volksinitiative 'Überschüssige Goldreserven in den AHV-Fonds'",
+            "en": "Popular initiative 'Excess gold reserves for the OASI funds'",
+            "fr": "Initiative populaire fédérale 'pour le versement au fonds AVS des réserves d'or excédentaires de la Banque nationale suisse (Initiative sur l'or)'",
+            "it": "Iniziativa popolare federale 'per destinare le riserve d'oro eccedentarie della Banca nazionale svizzera al Fondo AVS (Iniziativa sull'oro)'"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 77548,
+                "no": 70146
+            },
+            {
+                "canton": "AR",
+                "yes": 8433,
+                "no": 8828
+            },
+            {
+                "canton": "AI",
+                "yes": 1908,
+                "no": 2218
+            },
+            {
+                "canton": "BL",
+                "yes": 39111,
+                "no": 40291
+            },
+            {
+                "canton": "BS",
+                "yes": 27277,
+                "no": 31844
+            },
+            {
+                "canton": "BE",
+                "yes": 132388,
+                "no": 147235
+            },
+            {
+                "canton": "FR",
+                "yes": 28630,
+                "no": 33502
+            },
+            {
+                "canton": "GE",
+                "yes": 45621,
+                "no": 61508
+            },
+            {
+                "canton": "GL",
+                "yes": 5748,
+                "no": 4184
+            },
+            {
+                "canton": "GR",
+                "yes": 22527,
+                "no": 24321
+            },
+            {
+                "canton": "JU",
+                "yes": 7011,
+                "no": 9170
+            },
+            {
+                "canton": "LU",
+                "yes": 46757,
+                "no": 59563
+            },
+            {
+                "canton": "NE",
+                "yes": 22060,
+                "no": 29157
+            },
+            {
+                "canton": "NW",
+                "yes": 7218,
+                "no": 10639
+            },
+            {
+                "canton": "OW",
+                "yes": 3927,
+                "no": 5602
+            },
+            {
+                "canton": "SH",
+                "yes": 13851,
+                "no": 14539
+            },
+            {
+                "canton": "SZ",
+                "yes": 22795,
+                "no": 17545
+            },
+            {
+                "canton": "SO",
+                "yes": 38225,
+                "no": 38455
+            },
+            {
+                "canton": "SG",
+                "yes": 62554,
+                "no": 59267
+            },
+            {
+                "canton": "TI",
+                "yes": 39146,
+                "no": 29502
+            },
+            {
+                "canton": "TG",
+                "yes": 33076,
+                "no": 29030
+            },
+            {
+                "canton": "UR",
+                "yes": 4551,
+                "no": 4950
+            },
+            {
+                "canton": "VD",
+                "yes": 72116,
+                "no": 90082
+            },
+            {
+                "canton": "VS",
+                "yes": 24094,
+                "no": 33350
+            },
+            {
+                "canton": "ZG",
+                "yes": 15255,
+                "no": 20225
+            },
+            {
+                "canton": "ZH",
+                "yes": 182231,
+                "no": 209919
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Elektrizitätsmarktgesetz",
+            "en": "Electricity Market Act",
+            "fr": "Loi sur le marché de l'électricité",
+            "it": "Legge sul mercato dell'energia elettrica"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 74896,
+                "no": 70740
+            },
+            {
+                "canton": "AR",
+                "yes": 7808,
+                "no": 9434
+            },
+            {
+                "canton": "AI",
+                "yes": 1976,
+                "no": 2141
+            },
+            {
+                "canton": "BL",
+                "yes": 43452,
+                "no": 35422
+            },
+            {
+                "canton": "BS",
+                "yes": 30971,
+                "no": 28131
+            },
+            {
+                "canton": "BE",
+                "yes": 139334,
+                "no": 135958
+            },
+            {
+                "canton": "FR",
+                "yes": 26478,
+                "no": 36107
+            },
+            {
+                "canton": "GE",
+                "yes": 39692,
+                "no": 66549
+            },
+            {
+                "canton": "GL",
+                "yes": 4432,
+                "no": 5380
+            },
+            {
+                "canton": "GR",
+                "yes": 24752,
+                "no": 21911
+            },
+            {
+                "canton": "JU",
+                "yes": 5767,
+                "no": 10690
+            },
+            {
+                "canton": "LU",
+                "yes": 60320,
+                "no": 44832
+            },
+            {
+                "canton": "NE",
+                "yes": 19352,
+                "no": 32094
+            },
+            {
+                "canton": "NW",
+                "yes": 9679,
+                "no": 7985
+            },
+            {
+                "canton": "OW",
+                "yes": 5465,
+                "no": 4093
+            },
+            {
+                "canton": "SH",
+                "yes": 12898,
+                "no": 14778
+            },
+            {
+                "canton": "SZ",
+                "yes": 20958,
+                "no": 19198
+            },
+            {
+                "canton": "SO",
+                "yes": 37670,
+                "no": 39173
+            },
+            {
+                "canton": "SG",
+                "yes": 57902,
+                "no": 62460
+            },
+            {
+                "canton": "TI",
+                "yes": 26298,
+                "no": 41450
+            },
+            {
+                "canton": "TG",
+                "yes": 28849,
+                "no": 32905
+            },
+            {
+                "canton": "UR",
+                "yes": 5049,
+                "no": 4501
+            },
+            {
+                "canton": "VD",
+                "yes": 50988,
+                "no": 111663
+            },
+            {
+                "canton": "VS",
+                "yes": 25073,
+                "no": 34015
+            },
+            {
+                "canton": "ZG",
+                "yes": 20765,
+                "no": 14593
+            },
+            {
+                "canton": "ZH",
+                "yes": 191946,
+                "no": 192209
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Bundesgesetz betreffend die Kranken- und Unfallversicherung mit Einschluss der Militärversicherung",
+            "en": "Federal law on health and accident insurance, including military insurance",
+            "fr": "Loi fédérale sur l'assurance contre les maladies et les accidents, et sur l'assurance militaire",
+            "it": "Legge federale concernente l'assicurazione contro le malattie e gl'infortuni e l'assicurazione militare"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 12611,
+                "no": 26117
+            },
+            {
+                "canton": "AR",
+                "yes": 2198,
+                "no": 7905
+            },
+            {
+                "canton": "AI",
+                "yes": 408,
+                "no": 2145
+            },
+            {
+                "canton": "BL",
+                "yes": 2350,
+                "no": 5697
+            },
+            {
+                "canton": "BS",
+                "yes": 4237,
+                "no": 6136
+            },
+            {
+                "canton": "BE",
+                "yes": 21869,
+                "no": 58144
+            },
+            {
+                "canton": "FR",
+                "yes": 4072,
+                "no": 15111
+            },
+            {
+                "canton": "GE",
+                "yes": 4883,
+                "no": 8868
+            },
+            {
+                "canton": "GL",
+                "yes": 3236,
+                "no": 2782
+            },
+            {
+                "canton": "GR",
+                "yes": 6553,
+                "no": 10126
+            },
+            {
+                "canton": "LU",
+                "yes": 7784,
+                "no": 14437
+            },
+            {
+                "canton": "NE",
+                "yes": 1753,
+                "no": 16043
+            },
+            {
+                "canton": "NW",
+                "yes": 880,
+                "no": 899
+            },
+            {
+                "canton": "OW",
+                "yes": 725,
+                "no": 1456
+            },
+            {
+                "canton": "SH",
+                "yes": 1840,
+                "no": 5263
+            },
+            {
+                "canton": "SZ",
+                "yes": 1664,
+                "no": 6498
+            },
+            {
+                "canton": "SO",
+                "yes": 4642,
+                "no": 10214
+            },
+            {
+                "canton": "SG",
+                "yes": 19863,
+                "no": 23383
+            },
+            {
+                "canton": "TI",
+                "yes": 4863,
+                "no": 6766
+            },
+            {
+                "canton": "TG",
+                "yes": 5794,
+                "no": 13160
+            },
+            {
+                "canton": "UR",
+                "yes": 1373,
+                "no": 2000
+            },
+            {
+                "canton": "VD",
+                "yes": 4748,
+                "no": 32236
+            },
+            {
+                "canton": "VS",
+                "yes": 1527,
+                "no": 14310
+            },
+            {
+                "canton": "ZG",
+                "yes": 860,
+                "no": 3100
+            },
+            {
+                "canton": "ZH",
+                "yes": 27302,
+                "no": 49118
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Volksinitiative 'für die Proporzwahl des Nationalrates'",
+            "en": "Popular initiative 'for the proportional representation of the National Council'",
+            "fr": "Initiative populaire 'Election proportionnelle du Conseil national'",
+            "it": "Elezione proporzionale del Consiglio nazionale . Modificazione dell'art. 73 Cost."
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 9777,
+                "no": 25200
+            },
+            {
+                "canton": "AR",
+                "yes": 911,
+                "no": 8120
+            },
+            {
+                "canton": "AI",
+                "yes": 1267,
+                "no": 1108
+            },
+            {
+                "canton": "BL",
+                "yes": 1137,
+                "no": 3880
+            },
+            {
+                "canton": "BS",
+                "yes": 3701,
+                "no": 4627
+            },
+            {
+                "canton": "BE",
+                "yes": 19051,
+                "no": 40292
+            },
+            {
+                "canton": "FR",
+                "yes": 13003,
+                "no": 3829
+            },
+            {
+                "canton": "GE",
+                "yes": 6380,
+                "no": 5341
+            },
+            {
+                "canton": "GL",
+                "yes": 2552,
+                "no": 2112
+            },
+            {
+                "canton": "GR",
+                "yes": 6125,
+                "no": 9513
+            },
+            {
+                "canton": "LU",
+                "yes": 8507,
+                "no": 8313
+            },
+            {
+                "canton": "NE",
+                "yes": 6422,
+                "no": 6773
+            },
+            {
+                "canton": "NW",
+                "yes": 790,
+                "no": 525
+            },
+            {
+                "canton": "OW",
+                "yes": 1090,
+                "no": 505
+            },
+            {
+                "canton": "SH",
+                "yes": 1437,
+                "no": 5332
+            },
+            {
+                "canton": "SZ",
+                "yes": 3881,
+                "no": 1219
+            },
+            {
+                "canton": "SO",
+                "yes": 5937,
+                "no": 7732
+            },
+            {
+                "canton": "SG",
+                "yes": 19678,
+                "no": 21692
+            },
+            {
+                "canton": "TI",
+                "yes": 7954,
+                "no": 7479
+            },
+            {
+                "canton": "TG",
+                "yes": 4705,
+                "no": 12351
+            },
+            {
+                "canton": "UR",
+                "yes": 1750,
+                "no": 915
+            },
+            {
+                "canton": "VD",
+                "yes": 11210,
+                "no": 22720
+            },
+            {
+                "canton": "VS",
+                "yes": 11236,
+                "no": 3165
+            },
+            {
+                "canton": "ZG",
+                "yes": 1633,
+                "no": 1392
+            },
+            {
+                "canton": "ZH",
+                "yes": 18874,
+                "no": 40531
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Volksinitiative 'für die Volkswahl des Bundesrates und die Vermehrung der Mitgliederzahl'",
+            "en": "Popular initiative 'for the popular election of the Federal Council and the increase in the number of members'",
+            "fr": "Initiative populaire 'Election du Conseil fédéral par le peuple et augmentation du nombre des membres de cette autorité'",
+            "it": "Elezione popolare del Consiglio federale e aumento del numero dei consiglieri federali"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 9075,
+                "no": 26598
+            },
+            {
+                "canton": "AR",
+                "yes": 803,
+                "no": 8238
+            },
+            {
+                "canton": "AI",
+                "yes": 1107,
+                "no": 1187
+            },
+            {
+                "canton": "BL",
+                "yes": 978,
+                "no": 4207
+            },
+            {
+                "canton": "BS",
+                "yes": 3343,
+                "no": 5789
+            },
+            {
+                "canton": "BE",
+                "yes": 17507,
+                "no": 41988
+            },
+            {
+                "canton": "FR",
+                "yes": 12264,
+                "no": 4561
+            },
+            {
+                "canton": "GE",
+                "yes": 3639,
+                "no": 6958
+            },
+            {
+                "canton": "GL",
+                "yes": 2640,
+                "no": 2159
+            },
+            {
+                "canton": "GR",
+                "yes": 5920,
+                "no": 9749
+            },
+            {
+                "canton": "LU",
+                "yes": 7534,
+                "no": 9469
+            },
+            {
+                "canton": "NE",
+                "yes": 2492,
+                "no": 10845
+            },
+            {
+                "canton": "NW",
+                "yes": 733,
+                "no": 577
+            },
+            {
+                "canton": "OW",
+                "yes": 980,
+                "no": 661
+            },
+            {
+                "canton": "SH",
+                "yes": 1453,
+                "no": 5419
+            },
+            {
+                "canton": "SZ",
+                "yes": 3768,
+                "no": 1433
+            },
+            {
+                "canton": "SO",
+                "yes": 5740,
+                "no": 8002
+            },
+            {
+                "canton": "SG",
+                "yes": 19484,
+                "no": 22328
+            },
+            {
+                "canton": "TI",
+                "yes": 7786,
+                "no": 7629
+            },
+            {
+                "canton": "TG",
+                "yes": 4346,
+                "no": 12817
+            },
+            {
+                "canton": "UR",
+                "yes": 1628,
+                "no": 962
+            },
+            {
+                "canton": "VD",
+                "yes": 5609,
+                "no": 28247
+            },
+            {
+                "canton": "VS",
+                "yes": 8557,
+                "no": 5739
+            },
+            {
+                "canton": "ZG",
+                "yes": 1630,
+                "no": 1554
+            },
+            {
+                "canton": "ZH",
+                "yes": 16910,
+                "no": 43406
+            }
+        ]
+    },
+    {
+        "description": {
+            "de": "Bundesbeschluss betreffend die Unterstützung der öffentlichen Primarschule durch den Bund",
+            "en": "Federal decree concerning the support of the public primary school by the federal government",
+            "fr": "Arrêté fédéral concernant la subvention de l'école primaire publique par la Confédération",
+            "it": "Decreto federale sull'inserimento d'un articolo 27bis nella Costituzione federale (sovvenzione alla scuola primaria pubblica)"
+        },
+        "results": [
+            {
+                "canton": "AG",
+                "yes": 23812,
+                "no": 11728
+            },
+            {
+                "canton": "AR",
+                "yes": 6141,
+                "no": 3319
+            },
+            {
+                "canton": "AI",
+                "yes": 842,
+                "no": 1513
+            },
+            {
+                "canton": "BL",
+                "yes": 3158,
+                "no": 1286
+            },
+            {
+                "canton": "BS",
+                "yes": 4420,
+                "no": 506
+            },
+            {
+                "canton": "BE",
+                "yes": 43043,
+                "no": 9016
+            },
+            {
+                "canton": "FR",
+                "yes": 11354,
+                "no": 1887
+            },
+            {
+                "canton": "GE",
+                "yes": 6270,
+                "no": 496
+            },
+            {
+                "canton": "GL",
+                "yes": 3154,
+                "no": 1192
+            },
+            {
+                "canton": "GR",
+                "yes": 9097,
+                "no": 4228
+            },
+            {
+                "canton": "LU",
+                "yes": 6737,
+                "no": 1631
+            },
+            {
+                "canton": "NE",
+                "yes": 4621,
+                "no": 656
+            },
+            {
+                "canton": "NW",
+                "yes": 846,
+                "no": 596
+            },
+            {
+                "canton": "OW",
+                "yes": 822,
+                "no": 491
+            },
+            {
+                "canton": "SH",
+                "yes": 6311,
+                "no": 590
+            },
+            {
+                "canton": "SZ",
+                "yes": 3088,
+                "no": 942
+            },
+            {
+                "canton": "SO",
+                "yes": 6972,
+                "no": 2736
+            },
+            {
+                "canton": "SG",
+                "yes": 27239,
+                "no": 14185
+            },
+            {
+                "canton": "TI",
+                "yes": 11180,
+                "no": 710
+            },
+            {
+                "canton": "TG",
+                "yes": 11024,
+                "no": 4644
+            },
+            {
+                "canton": "UR",
+                "yes": 1644,
+                "no": 985
+            },
+            {
+                "canton": "VD",
+                "yes": 14796,
+                "no": 2094
+            },
+            {
+                "canton": "VS",
+                "yes": 8434,
+                "no": 3491
+            },
+            {
+                "canton": "ZG",
+                "yes": 2226,
+                "no": 768
+            },
+            {
+                "canton": "ZH",
+                "yes": 41336,
+                "no": 10739
+            }
+        ]
+    }
+]

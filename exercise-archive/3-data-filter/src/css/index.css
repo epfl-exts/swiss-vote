@@ -1,0 +1,174 @@
+:root {
+  --off-white: #fbfbfb;
+  --light-grey: #a5a6a9;
+  --grey: #dddddd;
+  --dark-grey: #0b3536;
+  --orange: #f67944;
+  --blue: #2677bb;
+  --content-max-width: 640px;
+  --content-padding: 1.2em;
+  --shadow: -1px -1px 0 #000003, 1px -1px 0 #000003, -1px 1px 0 #000003,
+    1px 1px 0 #000003;
+  --light-shadow: -1px -1px 0 #fbfbfb, 1px -1px 0 #fbfbfb, -1px 1px 0 #fbfbfb,
+    1px 1px 0 #fbfbfb;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #000003;
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  color: #f1f2f0;
+  text-shadow: var(--shadow);
+}
+
+h1 {
+  letter-spacing: 1px;
+}
+
+h2 {
+  letter-spacing: 2px;
+}
+
+h2, h3 {
+  font-weight: 300;
+}
+
+h3 {
+  letter-spacing: 3px;
+}
+
+.content {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--content-padding);
+}
+
+.content img {
+  width: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.header,
+.footer {
+  width: 100%;
+}
+
+.header {
+  background-color: var(--orange);
+}
+
+.header .brand {
+  color: var(--blue);
+  text-shadow: var(--light-shadow);
+}
+
+.header h1 {
+  color: var(--off-white);
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: var(--grey);
+}
+
+.header .content,
+.footer .content {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--content-padding);
+}
+
+.header .content {
+  padding-bottom: 0;
+}
+
+.footer .content {
+  position: relative;
+}
+
+.grain {
+  background-image: url("../noise.jpg");
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+
+.demo {
+  box-shadow: var(--shadow);
+  max-width: calc(var(--content-max-width) + 2.5em);
+  margin: 0 auto;
+  padding: var(--content-padding);
+  position: relative;
+}
+
+.demo fieldset {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+.demo img {
+  width: 100%;
+}
+
+.is-cursive {
+  font-family: Brush Script MT, cursive;
+  font-size: 1.5em;
+  font-style: normal;
+}
+
+.is-primary {
+  color: #f67944;
+}
+
+.is-secondary {
+  color: #0098d8;
+}
+
+.is-tertiary {
+  color: #3dbd5d;
+}
+
+.is-quaternary {
+  color: #f54123;
+}
+
+pre {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 640px) {
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+
+  .product-container > canvas {
+    padding: 0 var(--content-padding) var(--content-padding);
+  }
+}

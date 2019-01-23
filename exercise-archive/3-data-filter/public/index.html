@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <title>Swiss-Vote</title>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+
+  <div class="header">
+    <header class="content">
+      <h1>UI Development with React.js:<br /><span class="brand">Swiss-Vote</span></h1>
+    </header>
+  </div>
+
+  <main>
+    <div class="content">
+      <p>Welcome to the EPFL Extension School's course on UI Development with React.js. This course is designed to
+        up-skill you in the realm of React.js, and more peripherally, ES6 JavaScript. As we work through the three
+        course projects, we'll be covering everything from the basics of creating your own stateful components, to more
+        advanced React development patterns.</p>
+
+      <p>Swiss-Vote is the first of the three course projects. It's a basic React app that visualizes a data set of
+        historical votes in Switzerland that was obtained through the Polis API, which is developed and maintained by
+        SRG SSR, the Swiss Broadcasting Corporation.</p>
+
+      <p>This project will be your introduction to stateless and stateful React components. We'll be exploring what
+        props and state are, and how they are used to develop encapsulated components that can be composed together to
+        make complex user-interfaces.</p>
+
+      <p>In the box below, you'll see an interface, which is a React component. The purpose of this component is to
+        render a map that can be colored according to the yes and no votes of a particular historical vote in
+        Switzerland.</p>
+    </div>
+
+    <div class="demo">
+      <div class="grain"></div>
+      <div id="root"></div>
+    </div>
+
+    <div class="content">
+      <h2 class="is-secondary">"Build encapsulated components that manage their own state, then compose them to make
+        complex UIs."</h2>
+
+      <p>The above quote comes from React's official documentation, and it will be the focal point for this course. To
+        begin, let's have a quick look at what a component is, what state is, and what it means to compose components.</p>
+
+      <h3>Components.</h3>
+
+      <p>A component is a function that returns a React element. React elements can be rendered to the DOM via
+        ReactDOM, a complementary library. But other renders exist too. For example, React Native a the renderer that
+        you can use to build native mobile apps from React components. And there are custom renderers too. Video game
+        studios even use custom renderers that enable them to build their gaming interfaces out of React components.</p>
+
+      <p>Rendering a component to the DOM can look as simple as this the example below.</p>
+
+      <pre><code>ReactDOM.render(
+  &lt;SimpleDemo /&gt;,
+  document.getElementById("pretty-simple")
+);</code></pre>
+
+      <p>The render above would insert the stateless component below into the DOM. I'll explain what "stateless means"
+        in just a moment.</p>
+
+      <h3>JSX.</h3>
+
+      Just in case you're wondering about the "custom" tag, &lt;SimpleDemo /&gt;, inside of the render call; that
+      syntax is JSX. Notice that the SimpleDemo begins with a capital letter; that's because it refers to a React
+      component. JSX syntax simplifies the way that we reference components. It looks a lot like HTML or XML, and we'll
+      explore it in greater depth as we work through the course.
+
+      <h3>Functional components.</h3>
+
+      <pre><code>function SimpleDemo() {
+  return &lt;h3&gt;Isn't this easy?&lt;/h3&gt;;
+}</code></pre>
+
+      <p>That's it; the code blocks above would render an h3 header with the text "Isn't this easy?" where the element
+        with the ID "pretty-simple" is. That's it; everything you need to render a component to the DOM.</p>
+
+      <p>But React is pretty powerful, and stateless components like the one above only offer minimal functionality, so
+        we'll be slowly adding-in more functionality on top of that basic pattern as we progress through the course.</p>
+
+      <h3>Stateful components.</h3>
+
+      If the example above is of a "stateless" React component, its "stateful" counterpart might look like this:
+
+      <pre><code>class SimpleDemo extends React.Component {
+  state = {
+    message: "Isn't this easy?"
+  }
+
+  render() {
+    return &lt;h3&gt;{this.state.message}&lt;/h3&gt;;
+  }
+}</code></pre>
+
+      <p>The <i>stateful</i> component above would render the same exact element to the DOM as the <i>stateless</i>
+        component above it. The difference, however, is that the stateful component can be "reactive", in the sense
+        that if the "state" object updates, the component will re-render and will reflect the updated text.</p>
+
+      <h3>Composing components together.</h3>
+
+      <p>Let's look at a mock-up of the Swiss-Vote app that outlines the components that compose it. In it, you'll
+        notice four colored boxes, which indicate the four different React components that make up the UI: <code>&lt;<span class="is-cursive is-primary">App</span>
+          /&gt;</code>, <code>&lt;<span class="is-cursive is-tertiary">Selector</span> /&gt;</code>, <code>&lt;<span class="is-cursive is-secondary">Map</span>
+          /&gt;</code>, and <code>&lt;<span class="is-cursive is-quaternary">ResultsTable</span> /&gt;</code>.
+        ResultsTable is a
+        fallback table of the selected vote data set, and it is nested inside of the <code>&lt;canvas /&gt;</code>
+        element that Map renders.
+        In the mock-up, ResultsTable appears nested inside of Map, just as Map and Selector appear nested inside of
+        App.</p>
+
+      <img src="%PUBLIC_URL%/mock_up.jpeg" alt="Components mock up" />
+
+      Before we begin working our way through the Swiss-Vote project, let's look briefly at what each of those four
+      components does.
+
+      <h3><code>&lt;<span class="is-cursive is-primary">App</span> /&gt;</code></h3>
+
+      <p>This is the root component. It manages the state for <code class="is-tertiary">&lt;Selector /&gt;</code> and
+        <code class="is-secondary">&lt;Map /&gt;</code>, and it renders
+        those two components as well.</p>
+
+      <h3><code>&lt;<span class="is-cursive is-secondary">Map</span> /&gt;</code></h3>
+
+      <p>This component renders the image of the map of Switzerland. The image is a &lt;canvas /&gt; element that is
+        rendered by <code class="is-secondary">&lt;Map /&gt;</code>, and Map also calls a function that draws the map
+        on the canvas. We'll
+        look at this in detail a little later in the course.</p>
+
+      <h3><code>&lt;<span class="is-cursive is-tertiary">Selector</span> /&gt;</code></h3>
+
+      <p>Selector renders the autocomplete field that lets filter the list of historical votes. We'll build this
+        component in two stages: first as a simple drop-down &lt;select&gt;&lt;/select&gt;, and then later as the
+        autocomplete field that you see on this page.</p>
+
+      <h3><code>&lt;<span class="is-cursive is-quaternary">ResultsTable</span> /&gt;</code></h3>
+
+      <p>Last, but not least, we have ResultsTable, which renders an HTML table element that contains the same data
+        that
+        is used to color the map of Switzerland. It's purpose is to be nested inside of <code class="is-secondary">&lt;Map /&gt;</code>
+        as a fallback table for any person who is viewing the page from an accessibility device.</p>
+
+      <hr />
+
+      <p>Swiss-Vote is the vessel through which we'll explore our introduction to the React.js library. In this first
+        part of the course, we'll get familliar with the following React features and patterns:</p>
+
+      <ul>
+        <li>Stateless functional components</li>
+        <li>Stateful class components</li>
+        <li>Controlled components</li>
+        <li>Render props</li>
+      </ul>
+    </div>
+  </main>
+
+  <div class="footer">
+    <footer class="content">
+      <h4>Enabling everyone to learn the skills necessary to benefit from the opportunities of the digital age.</h4>
+      <a class="object-link" href="http://exts.epfl.ch/" target="_blank">
+        <object width="250" class="logo" data="%PUBLIC_URL%/epfl-exts-logo.svg" type="image/svg+xml" aria-label="EPFL Extension School Logo"></object>
+      </a>
+    </footer>
+  </div>
+</body>
+
+</html>

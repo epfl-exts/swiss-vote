@@ -1,0 +1,56 @@
+label {
+  display: block;
+  margin: 18px 0 8px;
+}
+
+input, select {
+  font-size: 1em;
+  font-weight: 300;
+  box-sizing: border-box;
+  box-shadow: var(--light-shadow);
+  padding: calc(var(--content-padding) / 2);
+  width: 100%;
+  text-overflow: ellipsis;
+}
+
+figure {
+  padding: var(--content-padding) 0;
+  margin: 0;
+}
+
+figure canvas {
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+fieldset ul {
+  list-style: none;
+  padding: 0;
+}
+
+#root {
+  position: relative;
+}
+
+.object-link:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;  
+}
+
+table {
+  text-align: left;
+  width: 100%;
+}
+
+table caption {
+  text-align: left;
+}
