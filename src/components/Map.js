@@ -43,6 +43,8 @@ class Map extends Component {
     const { description, results } = this.props;
     return (
       <canvas height={538} width={840} ref="canvas">
+        {/* cloneElement is being used because we wish to merge
+            the description and results props with this.props.children */}
         {React.cloneElement(this.props.children, { description, results })}
       </canvas>
     );

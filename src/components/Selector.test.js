@@ -144,34 +144,36 @@ const mockResult = {
   ]
 };
 
-const hasMenu = wrapper => wrapper.find("li").length > 0;
+describe("The autocomplete selector", () => {
+  const hasMenu = wrapper => wrapper.find("li").length > 0;
 
-test("menu is closed by default", () => {
-  const wrapper = mount(<Selector results={[mockResult]} />);
-  expect(hasMenu(wrapper)).toBe(false);
-});
-
-test("lists results with a keydown of ArrowDown on the input", () => {
-  const wrapper = mount(<Selector results={[mockResult]} />);
-  const input = wrapper.find("input");
-  input.simulate("keydown", { key: "ArrowDown" });
-  expect(hasMenu(wrapper)).toBe(true);
-});
-
-test('can search for and select "National Bank profits for the OASI"', () => {
-  const onChange = jest.fn();
-  const wrapper = mount(
-    <Selector results={[mockResult]} onChange={onChange} />
-  );
-  const input = wrapper.find("input");
-
-  input.simulate("change", {
-    target: { value: "National Bank profits for the OASI" }
+  test("menu is closed by default", () => {
+    const wrapper = mount(<Selector results={[mockResult]} />);
+    expect(hasMenu(wrapper)).toBe(false);
   });
-  input.simulate("keydown", { key: "ArrowDown" });
-  input.simulate("keydown", { key: "Enter" });
 
-  expect(onChange).toHaveBeenCalledTimes(1);
-  expect(onChange).toHaveBeenCalledWith(mockResult);
-  expect(input.instance().value).toBe("National Bank profits for the OASI");
+  test("lists results with a keydown of ArrowDown on the input", () => {
+    const wrapper = mount(<Selector results={[mockResult]} />);
+    const input = wrapper.find("input");
+    input.simulate("keydown", { key: "ArrowDown" });
+    expect(hasMenu(wrapper)).toBe(true);
+  });
+
+  test('can search for and select "National Bank profits for the OASI"', () => {
+    const onChange = jest.fn();
+    const wrapper = mount(
+      <Selector results={[mockResult]} onChange={onChange} />
+    );
+    const input = wrapper.find("input");
+
+    input.simulate("change", {
+      target: { value: "National Bank profits for the OASI" }
+    });
+    input.simulate("keydown", { key: "ArrowDown" });
+    input.simulate("keydown", { key: "Enter" });
+
+    expect(onChange).toHaveBeenCalledTimes(1);
+    expect(onChange).toHaveBeenCalledWith(mockResult);
+    expect(input.instance().value).toBe("National Bank profits for the OASI");
+  });
 });

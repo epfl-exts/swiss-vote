@@ -145,24 +145,9 @@ const mockResult = {
   ]
 };
 
-it("renders the App component without crashing", () => {
-  shallow(<App />);
-});
-
-it("changes the select value, and causes the state to update", () => {
-  const component = shallow(<App />);
-  const select = component.find("select");
-
-  select.simulate("change", { target: { value: mockResult } });
-
-  expect(component.state().selection).toBe(mockResult);
-});
-
-it("renders a ResultsTable component without crashing", () => {
-  shallow(<ResultsTable {...mockResult} />);
-});
-
-it("checks that the ResultsTable component renders content from its props", () => {
-  const tableComponent = shallow(<ResultsTable {...mockResult} />);
-  expect(tableComponent.contains(<caption>{mockResult.description.en}</caption>));
+describe("ResultsTable", () => {
+  it("renders content from its props", () => {
+    const tableComponent = shallow(<ResultsTable {...mockResult} />);
+    expect(tableComponent.contains(<caption>{mockResult.description.en}</caption>));
+  });
 });

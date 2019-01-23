@@ -6,17 +6,15 @@ import "../css/App.css";
 class App extends Component {
   state = {
     selection: "",
-    results: []
+    results: {}
   };
 
   componentDidMount() {
-    fetch(
-      "https://gist.githubusercontent.com/epfl-exts-react/63181e2beb4f813d9988734e93026b0c/raw/e9c7ef1cea83434f867b69fe8cc73ccdc02ff667/swiss-vote-results-sample.json"
-    )
+    fetch("./swiss-vote-results-sample.json")
       .then(function(response) {
         return response.json();
       })
-      .then(responseJSON => this.setState({ results: responseJSON }))
+      .then(results => this.setState({ results }))
       .catch(error => console.error("FetchError:", error));
   }
 
