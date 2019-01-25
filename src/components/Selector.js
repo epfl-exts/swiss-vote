@@ -6,7 +6,7 @@ function Selector(props) {
     <Downshift
       onChange={selection => props.onChange(selection)}
       itemToString={selectedResult =>
-        selectedResult ? selectedResult.description.en : ""
+        selectedResult ? selectedResult.title : ""
       }
     >
       {({
@@ -25,10 +25,9 @@ function Selector(props) {
           <input {...getInputProps()} />
           <ul>
             {isOpen
-              ? props.results
+              ? props.votes
                   .filter(
-                    result =>
-                      !inputValue || result.description.en.includes(inputValue)
+                    ({ title }) => !inputValue || title.includes(inputValue)
                   )
                   .map((item, index) => (
                     <li
@@ -45,13 +44,14 @@ function Selector(props) {
                             highlightedIndex === index
                               ? "#0098d8" // power-blue
                               : "#fbfbfb", // off-white
-                          fontWeight: selectedItem === item ? "bold" : "normal",
+                          fontWeight:
+                            selectedItem === item.id ? "bold" : "normal",
                           maxWidth: "570px", // line-it-up with the text above
                           padding: "5px 15px"
                         }
                       })}
                     >
-                      {item.description.en}
+                      {item.title}
                     </li>
                   ))
               : null}
